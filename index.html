@@ -1,0 +1,186 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Bing Li">
+    <title>Bing Li</title>
+    <style>
+      .name-heading {
+        margin: 30px 0 24px;
+      }
+      
+      .name-heading name {
+        display: inline-block;
+        color: #1f2937;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.1;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+      
+      .name-heading name::after {
+        display: block;
+        width: 52px;
+        height: 4px;
+        margin-top: 12px;
+        border-radius: 2px;
+        background: #3f7cac;
+        content: "";
+      }
+      
+      @media (max-width: 600px) {
+        .name-heading name {
+          font-size: 34px;
+        }
+      }
+      
+      .publications-section {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 20px;
+      }
+      
+      .publications-section h3 {
+        margin: 32px 0 12px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid #3f7cac;
+        color: #1f2937;
+        font-size: 20px;
+      }
+      
+      .publication-note {
+        margin: 6px 0 0;
+        color: #6b7280;
+        font-size: 13px;
+      }
+      
+      .publication-list {
+        margin: 0;
+        padding-left: 28px;
+      }
+      
+      .publication-list li {
+        margin-bottom: 16px;
+        padding-left: 5px;
+        line-height: 1.55;
+      }
+      
+      .publication-title {
+        color: #4a90d9;
+        font-weight: 600;
+        text-decoration: none;
+      }
+      
+      .publication-title:hover,
+      .publication-title:focus-visible {
+        color: #2f78bd;
+        text-decoration: underline;
+      }
+      
+      .corresponding-author {
+        color: #4b5563;
+        font-size: 0.92em;
+        white-space: nowrap;
+      }
+      
+      /* Keep both edges of long English text visually aligned. */
+      #site-content td > p:not(.name-heading),
+      .publication-list li {
+        text-align: justify;
+        text-justify: inter-word;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+        overflow-wrap: break-word;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main id="site-content">
+<table width="760px" border="0" align="center" cellspacing="0" cellpadding="0">
+      <tbody>
+      <!-- Intro Begin -->
+      <tr style="padding:0px">
+        <td style="padding:0px">
+      <table width="100%" align="left" border="0" cellspacing="0" cellpadding="12" style="table-layout:fixed;">
+        <tbody>
+        <tr>
+          <td valign="top" style="width:100%;text-align:left;">
+            <p class="name-heading">
+              <name>Bing Li</name>
+            </p>
+          </td>
+        </tr>
+      </table>
+      </td>
+      </tr>
+      <!-- Intro End -->
+
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;table-layout:fixed;"><tbody>
+            <tr style="padding:0px">
+              <td style="padding:2.5%;width:63%;vertical-align:middle">
+                <h2>About me</h2>
+                <p>
+                  I am a Full Professor and a National High-level Young Talent at <a target="_blank" href="https://www.jlu.edu.cn/">Jilin University</a>. 
+                  I received my Ph.D. degree in Computer Application Technology from the Institute of Computing Technology, 
+                  Chinese Academy of Sciences (ICT-CAS), under the supervision of Prof. <a target="_blank" href="https://idm.pku.edu.cn/info/1017/1041.htm">Wen Gao</a>
+                  (IEEE/ACM Fellow, and Member of the Chinese Academy of Engineering). 
+                  My research interests span artificial intelligence, computer vision, multimodal learning, and generative models. 
+                  I have published papers in leading journals and conferences, including T-PAMI, CVPR, ICCV, and NeurIPS.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+          <section class="publications-section">
+            <h3>Conference Papers</h3>
+            <ol class="publication-list">
+              <li>Zijin Yin, Tiankai Hang, Yiji Cheng, Shiyi Zhang, Runze He, Yu Xu, Chunyu Wang, <strong>Bing Li</strong>, Zheng Chang, Kongming Liang, Qinglin Lu, and Zhanyu Ma. <a class="publication-title" href="https://arxiv.org/abs/2603.01893" target="_blank" rel="noopener noreferrer">Generative Visual Chain-of-Thought for Image Editing.</a> IEEE/CVF Conference on Computer Vision and Pattern Recognition Findings (CVPR Findings), 2026.</li>
+              <li>Cheng Luo, Jianghui Wang, <strong>Bing Li<sup>*</sup></strong>, Siyang Song, and Bernard Ghanem. <a class="publication-title" href="https://papers.nips.cc/paper_files/paper/2025/hash/b734c30b9c955c535e333f0301f5e45c-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">OmniResponse: Online Multimodal Conversational Response Generation in Dyadic Interactions.</a> Conference on Neural Information Processing Systems (NeurIPS), 2025. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li>Wenxuan Zhu, <strong>Bing Li<sup>*</sup></strong>, Cheng Zheng, Jinjie Mai, Jun Chen, Letian Jiang, Abdullah Hamdi, Sara Rojas Martinez, Chia-Wen Lin, Mohamed Elhoseiny, and Bernard Ghanem. <a class="publication-title" href="https://openaccess.thecvf.com/content/ICCV2025/html/Zhu_4D-Bench_Benchmarking_Multi-modal_Large_Language_Models_for_4D_Object_Understanding_ICCV_2025_paper.html" target="_blank" rel="noopener noreferrer">4D-Bench: Benchmarking Multi-modal Large Language Models for 4D Object Understanding.</a> IEEE/CVF International Conference on Computer Vision (ICCV), 2025. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li>Xilin He, Cheng Luo, Xiaole Xian, <strong>Bing Li</strong>, Siyang Song, Muhammad Haris Khan, Weicheng Xie, Linlin Shen, Zongyuan Ge, Bernard Ghanem, and Xiangyu Yue. <a class="publication-title" href="https://openaccess.thecvf.com/content/ICCV2025/html/He_SynFER_Towards_Boosting_Facial_Expression_Recognition_with_Synthetic_Data_ICCV_2025_paper.html" target="_blank" rel="noopener noreferrer">SynFER: Towards Boosting Facial Expression Recognition with Synthetic Data.</a> IEEE/CVF International Conference on Computer Vision (ICCV), 2025.</li>
+              <li><strong>Bing Li</strong>, Cheng Zheng, Wenxuan Zhu, Jinjie Mai, Biao Zhang, Peter Wonka, and Bernard Ghanem. <a class="publication-title" href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/71c9eb0913e6c7fda3afd69c914b1a0c-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Vivid-ZOO: Multi-View Video Generation with Diffusion Model.</a> Conference on Neural Information Processing Systems (NeurIPS), 2024. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li>Jinjie Mai, Wenxuan Zhu, Sara Rojas, Jesus Zarzar, Abdullah Hamdi, Guocheng Qian, <strong>Bing Li</strong>, Silvio Giancola, and Bernard Ghanem. <a class="publication-title" href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1990_ECCV_2024_paper.php" target="_blank" rel="noopener noreferrer">TrackNeRF: Bundle Adjusting NeRF from Sparse and Noisy Views via Feature Tracks.</a> European Conference on Computer Vision (ECCV), 2024.</li>
+              <li>Jinheng Xie, Songhe Deng, <strong>Bing Li</strong>, Haozhe Liu, Yawen Huang, Yefeng Zheng, Jürgen Schmidhuber, Bernard Ghanem, Linlin Shen, and Mike Zheng Shou. <a class="publication-title" href="https://openaccess.thecvf.com/content/CVPR2024/html/Xie_Tune-An-Ellipse_CLIP_Has_Potential_to_Find_What_You_Want_CVPR_2024_paper.html" target="_blank" rel="noopener noreferrer">Tune-An-Ellipse: CLIP Has Potential to Find What You Want.</a> IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</li>
+              <li>Zijin Yin, Kongming Liang, <strong>Bing Li</strong>, Zhanyu Ma, and Jun Guo. <a class="publication-title" href="https://openaccess.thecvf.com/content/CVPR2024/html/Yin_Benchmarking_Segmentation_Models_with_Mask-Preserved_Attribute_Editing_CVPR_2024_paper.html" target="_blank" rel="noopener noreferrer">Benchmarking Segmentation Models with Mask-Preserved Attribute Editing.</a> IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024.</li>
+              <li>Guocheng Qian, Jinjie Mai, Abdullah Hamdi, Jian Ren, Aliaksandr Siarohin, <strong>Bing Li</strong>, Hsin-Ying Lee, Ivan Skorokhodov, Peter Wonka, Sergey Tulyakov, and Bernard Ghanem. <a class="publication-title" href="https://openreview.net/forum?id=0jHkUDyEO9" target="_blank" rel="noopener noreferrer">Magic123: One Image to High-Quality 3D Object Generation Using Both 2D and 3D Diffusion Priors.</a> International Conference on Learning Representations (ICLR), 2024.</li>
+              <li>Wentian Zhang, Haozhe Liu, <strong>Bing Li<sup>*</sup></strong>, Jinheng Xie, Yawen Huang, Yuexiang Li, Yefeng Zheng, and Bernard Ghanem. <a class="publication-title" href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/47fc64d05a394955b1ae2487bfef1ab0-Abstract-Conference.html" target="_blank" rel="noopener noreferrer">Dynamically Masked Discriminator for Generative Adversarial Networks.</a> Conference on Neural Information Processing Systems (NeurIPS), 2023. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li>Wenpeng Xiao, Wentao Liu, Yitong Wang, Bernard Ghanem, and <strong>Bing Li<sup>*</sup></strong>. <a class="publication-title" href="https://openaccess.thecvf.com/content/ICCV2023/html/Xiao_Automatic_Animation_of_Hair_Blowing_in_Still_Portrait_Photos_ICCV_2023_paper.html" target="_blank" rel="noopener noreferrer">Automatic Animation of Hair Blowing in Still Portrait Photos.</a> IEEE/CVF International Conference on Computer Vision (ICCV), 2023. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li>Haozhe Liu, Mingchen Zhuge, <strong>Bing Li<sup>*</sup></strong>, Yuhui Wang, Francesco Faccio, Bernard Ghanem, and Jürgen Schmidhuber. <a class="publication-title" href="https://openaccess.thecvf.com/content/ICCV2023/html/Liu_Learning_to_Identify_Critical_States_for_Reinforcement_Learning_from_Videos_ICCV_2023_paper.html" target="_blank" rel="noopener noreferrer">Learning to Identify Critical States for Reinforcement Learning from Videos.</a> IEEE/CVF International Conference on Computer Vision (ICCV), 2023. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li>Haozhe Liu, Wentian Zhang, <strong>Bing Li<sup>*</sup></strong>, Haoqian Wu, Nanjun He, Yawen Huang, Yuexiang Li, Bernard Ghanem, and Yefeng Zheng. <a class="publication-title" href="https://openaccess.thecvf.com/content/CVPR2023/html/Liu_AdaptiveMix_Improving_GAN_Training_via_Feature_Space_Shrinkage_CVPR_2023_paper.html" target="_blank" rel="noopener noreferrer">Improving GAN Training via Feature Space Shrinkage.</a> IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li>Haoqian Wu, Keyu Chen, Haozhe Liu, Mingchen Zhuge, <strong>Bing Li<sup>*</sup></strong>, Ruizhi Qiao, Xiujun Shu, Bei Gan, Liangsheng Xu, Bo Ren, Mengmeng Xu, Wentian Zhang, Raghavendra Ramachandra, Chia-Wen Lin, and Bernard Ghanem. <a class="publication-title" href="https://openaccess.thecvf.com/content/CVPR2023/html/Wu_NewsNet_A_Novel_Dataset_for_Hierarchical_Temporal_Segmentation_CVPR_2023_paper.html" target="_blank" rel="noopener noreferrer">NewsNet: A Novel Dataset for Hierarchical Temporal Segmentation.</a> IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li>Haozhe Liu, <strong>Bing Li<sup>*</sup></strong>, Haoqian Wu, Hanbang Liang, Yawen Huang, Yuexiang Li, Bernard Ghanem, and Yefeng Zheng. <a class="publication-title" href="https://ojs.aaai.org/index.php/AAAI/article/view/26062" target="_blank" rel="noopener noreferrer">Combating Mode Collapse in GANs via Manifold Entropy Estimation.</a> AAAI Conference on Artificial Intelligence (AAAI), 2023. Oral. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li><strong>Bing Li</strong>, Cheng Zheng, Silvio Giancola, and Bernard Ghanem. <a class="publication-title" href="https://ojs.aaai.org/index.php/AAAI/article/view/20012" target="_blank" rel="noopener noreferrer">SCTN: Sparse Convolution-Transformer Network for Scene Flow Estimation.</a> AAAI Conference on Artificial Intelligence (AAAI), 2022.</li>
+              <li>Rui Peng, Tao Zhang, <strong>Bing Li<sup>*</sup></strong>, and Yitong Wang. <a class="publication-title" href="https://dl.acm.org/doi/10.1145/3503161.3548019" target="_blank" rel="noopener noreferrer">Pixelwise Adaptive Discretization with Uncertainty Sampling for Depth Completion.</a> ACM International Conference on Multimedia (ACM MM), 2022. <span class="corresponding-author">(Corresponding author)</span></li>
+              <li><strong>Bing Li</strong>, Chia-Wen Lin, Cheng Zheng, Shan Liu, Junsong Yuan, Bernard Ghanem, and C.-C. Jay Kuo. <a class="publication-title" href="https://openaccess.thecvf.com/content/ICCV2021/html/Li_High_Quality_Disparity_Remapping_With_Two-Stage_Warping_ICCV_2021_paper.html" target="_blank" rel="noopener noreferrer">High Quality Disparity Remapping with Two-Stage Warping.</a> IEEE/CVF International Conference on Computer Vision (ICCV), 2021.</li>
+              <li><strong>Bing Li</strong>, Chia-Wen Lin, Boxin Shi, Tiejun Huang, Wen Gao, and C.-C. Jay Kuo. <a class="publication-title" href="https://openaccess.thecvf.com/content_cvpr_2018/html/Li_Depth-Aware_Stereo_Video_CVPR_2018_paper.html" target="_blank" rel="noopener noreferrer">Depth-aware Stereo Video Retargeting.</a> IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2018.</li>
+              <li><strong>Bing Li</strong>, Chia-Wen Lin, Shan Liu, Tiejun Huang, Wen Gao, and C.-C. Jay Kuo. <a class="publication-title" href="https://dl.acm.org/doi/10.1145/3240508.3240682" target="_blank" rel="noopener noreferrer">Perceptual Temporal Incoherence Aware Stereo Video Retargeting.</a> ACM International Conference on Multimedia (ACM MM), 2018.</li>
+              <li><strong>Bing Li</strong>, Chia-Wen Lin, Cheng Zheng, Shan Liu, and C.-C. Jay Kuo. <a class="publication-title" href="https://doi.org/10.1109/ICIP.2019.8803500" target="_blank" rel="noopener noreferrer">Stereo Depth Mapping via Axis-Aligned Warping.</a> IEEE International Conference on Image Processing (ICIP), 2020. Oral.</li>
+              <li><strong>Bing Li</strong>, Lingyu Duan, Chia-Wen Lin, and Wen Gao. <a class="publication-title" href="https://doi.org/10.1109/ICIP.2014.7025587" target="_blank" rel="noopener noreferrer">Region-based Depth-preserving Stereoscopic Image Retargeting.</a> IEEE International Conference on Image Processing (ICIP), 2014. Oral.</li>
+              <li><strong>Bing Li</strong>, Ling-Yu Duan, Yiming Chen, Rongrong Ji, and Wen Gao. <a class="publication-title" href="https://doi.org/10.1109/ICASSP.2012.6288389" target="_blank" rel="noopener noreferrer">Predicting the Effectiveness of Queries for Visual Search.</a> IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2012.</li>
+              <li><strong>Bing Li</strong>, Yiming Chen, Jinqiao Wang, Ling-Yu Duan, and Wen Gao. <a class="publication-title" href="https://doi.org/10.1109/ICME.2011.6012050" target="_blank" rel="noopener noreferrer">Fast Retargeting with Adaptive Grid Optimization.</a> IEEE International Conference on Multimedia and Expo (ICME), 2011.</li>
+              <li><strong>Bing Li</strong>, Ling-Yu Duan, Jinqiao Wang, Jie Chen, Rongrong Ji, and Wen Gao. <a class="publication-title" href="https://doi.org/10.1007/978-3-642-17829-0_2" target="_blank" rel="noopener noreferrer">Grid-Based Retargeting with Transformation Consistency Smoothing.</a> International Conference on Multimedia Modeling (MMM), 2011.</li>
+            </ol>
+
+            <h3>Journal Papers</h3>
+            <ol class="publication-list">
+              <li>Zijin Yin, <strong>Bing Li</strong>, Kongming Liang, Hao Sun, Zhongjiang He, Zhanyu Ma, and Jun Guo. <a class="publication-title" href="https://arxiv.org/abs/2603.01535" target="_blank" rel="noopener noreferrer">Benchmarking Semantic Segmentation Models via Appearance and Geometry Attribute Editing.</a> IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2026.</li>
+              <li><strong>Bing Li</strong>, Chia-Wen Lin, Cheng Zheng, Shan Liu, Bernard Ghanem, Wen Gao, and C.-C. Jay Kuo. <a class="publication-title" href="https://ieeexplore.ieee.org/document/9462498/" target="_blank" rel="noopener noreferrer">Shape-Preserving Stereo Object Remapping via Object-Consistent Grid Warping.</a> IEEE Transactions on Image Processing (TIP), 2021.</li>
+              <li><strong>Bing Li</strong>, Chia-Wen Lin, Shan Liu, Tiejun Huang, Wen Gao, and C.-C. Jay Kuo. <a class="publication-title" href="https://ieeexplore.ieee.org/document/9059025/" target="_blank" rel="noopener noreferrer">Perceptual Temporal Incoherence-Guided Stereo Video Retargeting.</a> IEEE Transactions on Image Processing (TIP), vol. 29, pp. 5767-5782, 2020.</li>
+              <li><strong>Bing Li</strong>, Lingyu Duan, Chia-Wen Lin, Tiejun Huang, and Wen Gao. <a class="publication-title" href="https://doi.org/10.1109/TIP.2015.2431441" target="_blank" rel="noopener noreferrer">Depth-preserving Warping for Stereoscopic Image Retargeting.</a> IEEE Transactions on Image Processing (TIP), vol. 24, no. 9, pp. 2811-2826, 2015.</li>
+              <li><strong>Bing Li</strong>, Lingyu Duan, Jinqiao Wang, Rongrong Ji, Chia-Wen Lin, and Wen Gao. <a class="publication-title" href="https://doi.org/10.1109/TIP.2014.2305843" target="_blank" rel="noopener noreferrer">Spatiotemporal Grid Flows for Video Retargeting.</a> IEEE Transactions on Image Processing (TIP), vol. 23, no. 4, pp. 1615-1628, 2014.</li>
+              <li><strong>Bing Li</strong>, Yuanlve Zhu, Yitong Wang, Chia-Wen Lin, Linlin Shen, and Bernard Ghanem. <a class="publication-title" href="https://ieeexplore.ieee.org/document/9541089/" target="_blank" rel="noopener noreferrer">Style-guided Generative Adversarial Networks for Unsupervised Anime Face Generation.</a> IEEE Transactions on Multimedia (TMM), 2021.</li>
+            </ol>
+          </section>
+          
+        </td>
+      </tr>
+    </table>
+    </main>
+  </body>
+</html>
